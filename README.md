@@ -212,7 +212,7 @@ A **UMAP 2D scatter plot** was created to visualize the clusters.
 
 <!-- ![UMAP Cluster Plot](https://drive.google.com/file/d/1zXOzskwalL2qXMTL4FVbyG0AvfTeW1ij/view?usp=sharing) -->
 
-![UMAP Cluster Plot](data\figures\image.png)
+![UMAP Cluster Plot](data/figures/image.png)
 
 ## Results
 
