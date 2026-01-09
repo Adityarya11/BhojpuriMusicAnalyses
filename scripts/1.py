@@ -3,13 +3,18 @@ import json
 from urllib.parse import urlparse, parse_qs
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # ===============================
 # API KEYS (Rotate if quota exceeds)
 # ===============================
+API1 = os.getenv("API1")
+API2 = os.getenv("API2")
 API_KEYS = [
-    "AIzaSyAU4hTIaGNUpuUobVacu_dscYozWj0uYwc",
-    "AIzaSyDIdetG-mjqUJlbepdLScJv7kGevpt1KDU"
+    API1,
+    API2
 ]
 
 # ===============================
